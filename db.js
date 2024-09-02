@@ -1,10 +1,9 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv")
 
-
-
 dotenv.config()
-const mongoUri= process.env.MONGO
+const mongoUri = process.env.MONGO
+
 const mongoDB = async () => {
     try {
         const mongo = await mongoose.connect(mongoUri);
@@ -17,8 +16,6 @@ const mongoDB = async () => {
         // console.log(food_category)
         global.food_items = data;
         // console.log(global.food_items)
-
-        
 
 
     } catch (error) {
