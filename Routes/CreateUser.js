@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')
 const dotenv = require('dotenv')
 dotenv.config()
-const jwtsecret = process.env.jwtSecret //env data
+const jwtsecret = "V53854754T5&#&$%45*w#^@%627hhY63H"
 
  
 
